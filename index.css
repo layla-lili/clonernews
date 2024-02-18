@@ -360,7 +360,7 @@ h4 {
 }
 
 .toggle-comment {
-    color: rgba(251, 101, 30);
+    color: rgb(228, 89, 135);
     cursor: pointer;
 }
 
@@ -416,7 +416,7 @@ footer {
 
 .email {
     color: white;
-    background-color: rgba(251, 101, 30);
+    background-color: rgb(210, 103, 130);
     border-radius: 16px;
     height: 32px;
     overflow: hidden;
