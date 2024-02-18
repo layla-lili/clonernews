@@ -245,3 +245,4 @@ async function checkForUpdate() {
         document.querySelector(".container").style.display = '';
     }
 }
+

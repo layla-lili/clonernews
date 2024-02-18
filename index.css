@@ -76,7 +76,7 @@ h1 {
 .word {
     display: block;
 
-    animation: show 0.01s forwards, pop-word 1.5s forwards;
+    animation: show 0.01s forwards, pop-word 0.5s forwards;
     animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16);
     opacity: 0;
 
@@ -101,7 +101,7 @@ h1 {
 
     vertical-align: text-top;
 
-    font-size: 10vw;
+    font-size: 5vw;
 }
 
 /* bars */
@@ -190,12 +190,14 @@ h1 {
 }
 
 
-/* Revert */
+
+/* revert */
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 
 }
 
@@ -271,11 +273,14 @@ a:hover {
 
 
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20%;
+display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 115%;
+  margin: 0 10px;
+  cursor: pointer;
 
+  
 }
 
 h2 {
@@ -296,6 +301,8 @@ h4 {
 
 .main {
     margin: 0 auto;
+  
+    
 }
 
 .score {
